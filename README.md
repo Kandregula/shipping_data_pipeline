@@ -1,4 +1,4 @@
-#Shipping Data Pipeline
+##Shipping Data Pipeline
 
 An end-to-end data engineering pipeline that processes near real-time shipping events using Spark, and loads the data into BigQuery. Managed using Airflow.
 
@@ -22,10 +22,10 @@ An end-to-end data engineering pipeline that processes near real-time shipping e
 ## Setup: (edit)
 1. Install dependencies:
 
-   pip install -r requirements.txt
+   '''pip install -r requirements.txt'''
    
 
-2. Configure `config/config.yaml`:
+2. Configure 'config/config.yaml':
    ```
    gcp_project_id: "your-gcp-project"
    bq_dataset: "your_dataset"
